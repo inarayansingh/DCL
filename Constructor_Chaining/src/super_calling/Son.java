@@ -1,0 +1,8 @@
+package super_calling;
+
+ class Son extends Father {
+      Son(){
+    	 super();
+    	  System.out.println(2);
+      }
+}

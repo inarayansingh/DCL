@@ -1,0 +1,8 @@
+package non_primitive_example2;
+
+public class Vehicle {
+	String brand="BMW";
+    void start() {
+    	System.out.println("Vehicle is starting");
+    }
+} 

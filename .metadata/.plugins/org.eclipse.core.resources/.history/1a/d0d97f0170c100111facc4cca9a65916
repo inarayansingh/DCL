@@ -1,0 +1,16 @@
+package primitive;
+
+public class LongDataTypeExample {
+  public static void main(String args[]) {
+	  byte b=120;
+	  char c=65000;
+	  short s= 30000;
+	  
+	  long l=11234567891234567L;
+	 
+	  System.out.println(b);
+	  System.out.println(s);
+	  System.out.println(c);
+	  System.out.println(l);
+  }
+}

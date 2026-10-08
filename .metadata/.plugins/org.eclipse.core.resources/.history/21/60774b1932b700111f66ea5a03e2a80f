@@ -1,0 +1,7 @@
+package super_calling;
+
+ class Son extends {
+      son(){
+    	  System.out.println(2);
+      }
+}

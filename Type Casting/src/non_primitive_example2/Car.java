@@ -1,0 +1,9 @@
+package non_primitive_example2;
+
+public class Car extends Vehicle {
+    String type="fuel";
+    
+    void shiftrGear() {
+    	System.out.println("Shufting gear");
+    }
+}

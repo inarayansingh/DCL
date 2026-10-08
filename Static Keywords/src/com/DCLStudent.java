@@ -1,0 +1,35 @@
+package com;
+
+public class DCLStudent {
+	
+	//Individual copies 
+    int id;
+    String name;
+    String email;
+    int age;
+    //shared properties among all the students
+    //static variables
+    static String institue;
+    static String ceo;
+    
+    public static void main(String args[]) {
+    	DCLStudent std1=new DCLStudent();
+    	std1.id=101;
+    	std1.name="Narayan Singh";
+    	std1.email="narayansingh030101@gmail.com";
+    	std1.age=22;
+    	
+    	DCLStudent.institue="Dhee Coding Lab";
+    	DCLStudent.ceo="Mr.Shishira Bhat";
+    	
+    	
+    	 System.out.println(std1.id);
+    	 System.out.println(std1.name);
+    	 System.out.println(std1.email);
+    	 System.out.println(std1.age);
+    	 
+    	 System.out.println(DCLStudent.institue);
+    	 System.out.println(DCLStudent.ceo);
+    
+    }
+}

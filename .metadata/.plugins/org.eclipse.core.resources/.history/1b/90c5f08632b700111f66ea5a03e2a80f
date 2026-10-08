@@ -1,0 +1,8 @@
+package super_calling;
+
+public class App {
+	public static void main(String args[]) {
+		 Son s1=new Son();
+	}
+      
+}
